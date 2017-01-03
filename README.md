@@ -1,6 +1,10 @@
 # WebTouch
 
-WebTouch allows you to easily create buttons on the MacBook Touch Bar that trigger IFTTT recipes through the Maker Channel. 
+<img src="/window_clean.png" width="500">
+
+WebTouch allows you to easily create buttons on the MacBook Touch Bar that trigger IFTTT recipes through the Maker Channel.
+
+![Alt text](/touchbar.png?raw=true)
 
 ## Setup
 
