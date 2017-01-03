@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB22582E1E1B30F000848AF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB22582D1E1B30F000848AF1 /* AppDelegate.swift */; };
+		FB2258301E1B30F000848AF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB22582F1E1B30F000848AF1 /* ViewController.swift */; };
+		FB2258331E1B30F000848AF1 /* WebTouch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB2258311E1B30F000848AF1 /* WebTouch.xcdatamodeld */; };
+		FB2258351E1B30F000848AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2258341E1B30F000848AF1 /* Assets.xcassets */; };
+		FB2258381E1B30F000848AF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2258361E1B30F000848AF1 /* Main.storyboard */; };
+		FB2258431E1B30F000848AF1 /* WebTouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2258421E1B30F000848AF1 /* WebTouchTests.swift */; };
+		FB22584E1E1B30F000848AF1 /* WebTouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB22584D1E1B30F000848AF1 /* WebTouchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB22583F1E1B30F000848AF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB2258221E1B30F000848AF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB2258291E1B30F000848AF1;
+			remoteInfo = WebTouch;
+		};
+		FB22584A1E1B30F000848AF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB2258221E1B30F000848AF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB2258291E1B30F000848AF1;
+			remoteInfo = WebTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB22582A1E1B30F000848AF1 /* WebTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB22582D1E1B30F000848AF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB22582F1E1B30F000848AF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB2258321E1B30F000848AF1 /* WebTouch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WebTouch.xcdatamodel; sourceTree = "<group>"; };
+		FB2258341E1B30F000848AF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB2258371E1B30F000848AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB2258391E1B30F000848AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB22583E1E1B30F000848AF1 /* WebTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2258421E1B30F000848AF1 /* WebTouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebTouchTests.swift; sourceTree = "<group>"; };
+		FB2258441E1B30F000848AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB2258491E1B30F000848AF1 /* WebTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB22584D1E1B30F000848AF1 /* WebTouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebTouchUITests.swift; sourceTree = "<group>"; };
+		FB22584F1E1B30F000848AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB2258271E1B30F000848AF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB22583B1E1B30F000848AF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2258461E1B30F000848AF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB2258211E1B30F000848AF1 = {
+			isa = PBXGroup;
+			children = (
+				FB22582C1E1B30F000848AF1 /* WebTouch */,
+				FB2258411E1B30F000848AF1 /* WebTouchTests */,
+				FB22584C1E1B30F000848AF1 /* WebTouchUITests */,
+				FB22582B1E1B30F000848AF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB22582B1E1B30F000848AF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB22582A1E1B30F000848AF1 /* WebTouch.app */,
+				FB22583E1E1B30F000848AF1 /* WebTouchTests.xctest */,
+				FB2258491E1B30F000848AF1 /* WebTouchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB22582C1E1B30F000848AF1 /* WebTouch */ = {
+			isa = PBXGroup;
+			children = (
+				FB22582D1E1B30F000848AF1 /* AppDelegate.swift */,
+				FB22582F1E1B30F000848AF1 /* ViewController.swift */,
+				FB2258341E1B30F000848AF1 /* Assets.xcassets */,
+				FB2258361E1B30F000848AF1 /* Main.storyboard */,
+				FB2258391E1B30F000848AF1 /* Info.plist */,
+				FB2258311E1B30F000848AF1 /* WebTouch.xcdatamodeld */,
+			);
+			path = WebTouch;
+			sourceTree = "<group>";
+		};
+		FB2258411E1B30F000848AF1 /* WebTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB2258421E1B30F000848AF1 /* WebTouchTests.swift */,
+				FB2258441E1B30F000848AF1 /* Info.plist */,
+			);
+			path = WebTouchTests;
+			sourceTree = "<group>";
+		};
+		FB22584C1E1B30F000848AF1 /* WebTouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB22584D1E1B30F000848AF1 /* WebTouchUITests.swift */,
+				FB22584F1E1B30F000848AF1 /* Info.plist */,
+			);
+			path = WebTouchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB2258291E1B30F000848AF1 /* WebTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB2258521E1B30F000848AF1 /* Build configuration list for PBXNativeTarget "WebTouch" */;
+			buildPhases = (
+				FB2258261E1B30F000848AF1 /* Sources */,
+				FB2258271E1B30F000848AF1 /* Frameworks */,
+				FB2258281E1B30F000848AF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebTouch;
+			productName = WebTouch;
+			productReference = FB22582A1E1B30F000848AF1 /* WebTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB22583D1E1B30F000848AF1 /* WebTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB2258551E1B30F000848AF1 /* Build configuration list for PBXNativeTarget "WebTouchTests" */;
+			buildPhases = (
+				FB22583A1E1B30F000848AF1 /* Sources */,
+				FB22583B1E1B30F000848AF1 /* Frameworks */,
+				FB22583C1E1B30F000848AF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB2258401E1B30F000848AF1 /* PBXTargetDependency */,
+			);
+			name = WebTouchTests;
+			productName = WebTouchTests;
+			productReference = FB22583E1E1B30F000848AF1 /* WebTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB2258481E1B30F000848AF1 /* WebTouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB2258581E1B30F000848AF1 /* Build configuration list for PBXNativeTarget "WebTouchUITests" */;
+			buildPhases = (
+				FB2258451E1B30F000848AF1 /* Sources */,
+				FB2258461E1B30F000848AF1 /* Frameworks */,
+				FB2258471E1B30F000848AF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB22584B1E1B30F000848AF1 /* PBXTargetDependency */,
+			);
+			name = WebTouchUITests;
+			productName = WebTouchUITests;
+			productReference = FB2258491E1B30F000848AF1 /* WebTouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB2258221E1B30F000848AF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Gokul Swamy";
+				TargetAttributes = {
+					FB2258291E1B30F000848AF1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					FB22583D1E1B30F000848AF1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB2258291E1B30F000848AF1;
+					};
+					FB2258481E1B30F000848AF1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB2258291E1B30F000848AF1;
+					};
+				};
+			};
+			buildConfigurationList = FB2258251E1B30F000848AF1 /* Build configuration list for PBXProject "WebTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB2258211E1B30F000848AF1;
+			productRefGroup = FB22582B1E1B30F000848AF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB2258291E1B30F000848AF1 /* WebTouch */,
+				FB22583D1E1B30F000848AF1 /* WebTouchTests */,
+				FB2258481E1B30F000848AF1 /* WebTouchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB2258281E1B30F000848AF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2258351E1B30F000848AF1 /* Assets.xcassets in Resources */,
+				FB2258381E1B30F000848AF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB22583C1E1B30F000848AF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2258471E1B30F000848AF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB2258261E1B30F000848AF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2258301E1B30F000848AF1 /* ViewController.swift in Sources */,
+				FB22582E1E1B30F000848AF1 /* AppDelegate.swift in Sources */,
+				FB2258331E1B30F000848AF1 /* WebTouch.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB22583A1E1B30F000848AF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2258431E1B30F000848AF1 /* WebTouchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2258451E1B30F000848AF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB22584E1E1B30F000848AF1 /* WebTouchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB2258401E1B30F000848AF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB2258291E1B30F000848AF1 /* WebTouch */;
+			targetProxy = FB22583F1E1B30F000848AF1 /* PBXContainerItemProxy */;
+		};
+		FB22584B1E1B30F000848AF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB2258291E1B30F000848AF1 /* WebTouch */;
+			targetProxy = FB22584A1E1B30F000848AF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB2258361E1B30F000848AF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB2258371E1B30F000848AF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB2258501E1B30F000848AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB2258511E1B30F000848AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		FB2258531E1B30F000848AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WebTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.gokulswamy.WebTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FB2258541E1B30F000848AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WebTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.gokulswamy.WebTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FB2258561E1B30F000848AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WebTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.gokulswamy.WebTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebTouch.app/Contents/MacOS/WebTouch";
+			};
+			name = Debug;
+		};
+		FB2258571E1B30F000848AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WebTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.gokulswamy.WebTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebTouch.app/Contents/MacOS/WebTouch";
+			};
+			name = Release;
+		};
+		FB2258591E1B30F000848AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WebTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.gokulswamy.WebTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WebTouch;
+			};
+			name = Debug;
+		};
+		FB22585A1E1B30F000848AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WebTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.gokulswamy.WebTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WebTouch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB2258251E1B30F000848AF1 /* Build configuration list for PBXProject "WebTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2258501E1B30F000848AF1 /* Debug */,
+				FB2258511E1B30F000848AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB2258521E1B30F000848AF1 /* Build configuration list for PBXNativeTarget "WebTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2258531E1B30F000848AF1 /* Debug */,
+				FB2258541E1B30F000848AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB2258551E1B30F000848AF1 /* Build configuration list for PBXNativeTarget "WebTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2258561E1B30F000848AF1 /* Debug */,
+				FB2258571E1B30F000848AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB2258581E1B30F000848AF1 /* Build configuration list for PBXNativeTarget "WebTouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2258591E1B30F000848AF1 /* Debug */,
+				FB22585A1E1B30F000848AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB2258311E1B30F000848AF1 /* WebTouch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB2258321E1B30F000848AF1 /* WebTouch.xcdatamodel */,
+			);
+			currentVersion = FB2258321E1B30F000848AF1 /* WebTouch.xcdatamodel */;
+			path = WebTouch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB2258221E1B30F000848AF1 /* Project object */;
+}
