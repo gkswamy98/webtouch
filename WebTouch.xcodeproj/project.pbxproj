@@ -14,6 +14,7 @@
 		FB2258381E1B30F000848AF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2258361E1B30F000848AF1 /* Main.storyboard */; };
 		FB2258431E1B30F000848AF1 /* WebTouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2258421E1B30F000848AF1 /* WebTouchTests.swift */; };
 		FB22584E1E1B30F000848AF1 /* WebTouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB22584D1E1B30F000848AF1 /* WebTouchUITests.swift */; };
+		FB22585E1E1B466000848AF1 /* WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB22585C1E1B466000848AF1 /* WindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FB2258491E1B30F000848AF1 /* WebTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB22584D1E1B30F000848AF1 /* WebTouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebTouchUITests.swift; sourceTree = "<group>"; };
 		FB22584F1E1B30F000848AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB22585C1E1B466000848AF1 /* WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				FB22582F1E1B30F000848AF1 /* ViewController.swift */,
 				FB2258341E1B30F000848AF1 /* Assets.xcassets */,
 				FB2258361E1B30F000848AF1 /* Main.storyboard */,
+				FB22585C1E1B466000848AF1 /* WindowController.xib */,
 				FB2258391E1B30F000848AF1 /* Info.plist */,
 				FB2258311E1B30F000848AF1 /* WebTouch.xcdatamodeld */,
 			);
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					FB2258291E1B30F000848AF1 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZVC58YN32D;
 						ProvisioningStyle = Automatic;
 					};
 					FB22583D1E1B30F000848AF1 = {
@@ -233,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB2258351E1B30F000848AF1 /* Assets.xcassets in Resources */,
+				FB22585E1E1B466000848AF1 /* WindowController.xib in Resources */,
 				FB2258381E1B30F000848AF1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,7 +406,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZVC58YN32D;
 				INFOPLIST_FILE = WebTouch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.gokulswamy.WebTouch;
@@ -414,7 +421,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZVC58YN32D;
 				INFOPLIST_FILE = WebTouch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.gokulswamy.WebTouch;
