@@ -121,7 +121,7 @@ class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelega
     }
     
     @IBAction func openHelp(_ sender: Any) {
-        let url = URL(string: "http://gok.cool")
+        let url = URL(string: "https://github.com/gkswamy98/WebTouch")
         NSWorkspace.shared().open(url!)
         
     }
